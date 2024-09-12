@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 import time
-import numpy as np
 import pickle
 import matplotlib
 import skopt
@@ -28,7 +27,7 @@ from math import sqrt
 from numpy import concatenate
 from hyperopt import Trials, STATUS_OK, tpe
 from hyperopt.plotting import main_plot_history
-from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
+from hyperopt import fmin, hp, 
 from hyperas import optim
 from hyperas.distributions import choice, uniform, qloguniform, randint, qlognormal, lognormal
 from collections import OrderedDict

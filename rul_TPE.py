@@ -6,7 +6,6 @@ import pandas
 import sys
 import tensorflow as tf
 import random as rn
-import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 
@@ -29,7 +28,7 @@ from sklearn.metrics import roc_auc_score
 from hyperopt import Trials, STATUS_OK, tpe
 from hyperopt.plotting import main_plot_history
 from hyperas import optim
-from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
+from hyperopt import fmin, hp, 
 from hyperas.distributions import choice, uniform, qloguniform, randint, qlognormal, lognormal
 from collections import OrderedDict
 
